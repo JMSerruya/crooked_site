@@ -1,0 +1,253 @@
+/* FONTS */
+
+@font-face {
+	font-family: mediumcredits;
+	src: url('fonts/HelveticaNeueLTStd-Md.otf'); 
+}
+
+@font-face {
+	font-family: boldcredits;
+	src: url('fonts/HelveticaNeueLTStd-Bd.otf'); 
+}
+
+@font-face {
+	font-family: lightcredits;
+	src: url('fonts/HelveticaNeueLTStd-Lt.otf'); 
+}
+
+@font-face {
+	font-family: ultralightcredits;
+	src: url('fonts/HelveticaNeueLTStd-UltLt.otf'); 
+}
+
+
+/* BODY */
+
+body {
+	margin:0;
+	padding:0;
+	width:1110px;
+	margin:auto;
+	background-color:#000000;
+	color:#ffffff;
+	text-align:center;
+	font-family: 'mediumcredits';
+}
+
+/* MAIN COMPONENTS OF WEBSITE */
+
+/* 0. VISIBLE CONTENT */
+#visiblecontent {
+	display:none;
+}
+
+#normalcontent {
+	display:block;
+}
+
+/* 1. HEADER */
+#header {
+	height:100px;
+	line-height:100px;
+	border-bottom:solid 1px #ffffff;
+	font-family: 'ultralightcredits';
+	font-size:20px;
+}
+
+#navigation ul {
+	padding:0px;
+}
+
+#navigation li {
+	display:inline-block;
+	list-style-type:none;
+}
+
+#navigation a {
+	text-decoration:none;
+	color:#ffffff;
+	padding:0px 5px 0px 5px;
+}
+
+/* 2. WRAPPER */
+
+#wrapper {
+	height:350px;
+}
+
+/* 3. 'PAGES' */
+
+#home {
+	margin:0px;
+	padding:0px;
+	display:block;
+	height:350px;
+	position:relative;
+}
+
+#information {
+	margin:0px;
+	padding:0px;
+	display:none;
+	height:350px;
+	overflow-y:auto;
+} 
+
+#reference {
+	margin:0px;
+	padding:0px;
+	display:none;
+	height:350px;
+	position:relative;
+}
+
+#produkter {
+	margin:0px;
+	padding:0px;
+	display:none;
+	height:350px;
+	overflow-y:auto;
+}
+
+#kontakt {
+	margin:0px;
+	padding:0px;
+	display:none;
+	height:350px;
+}
+
+#handelsbetingelser {
+	margin:0px;
+	padding:0px;
+	display:none;
+	height:350px;
+	overflow-y:auto;
+}
+
+/* 4. FOOTER */
+#footer {
+	height:100px;
+	line-height:50px;
+	border-top:solid 1px #ffffff;
+	font-family: 'ultralightcredits';
+	font-size:14px;
+}
+
+/* OVERLAY */
+#overlay {
+	display:none;
+	position:relative;
+	height:100%;
+	width:100%;
+}
+
+#overlay2 {
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:2;
+	font-size:97px;
+	font-family:'boldcredits';
+	background-color:#000000;
+}
+
+/* SPECIFIC ELEMENTS */
+
+#homegifbox {
+	position:absolute;
+	top:71px;
+}
+
+#homegifbox img {
+	margin:0px -2px 0px -2px;
+	border:none;
+	z-index:-1;
+}
+
+#refgifbox {
+	position:absolute;
+	top:71px;
+}
+
+#refgifbox img {
+	margin:0px -2px 0px -2px;
+	border:none;
+	z-index:-1;
+}
+
+
+#logo {
+	font-size:97px;
+	font-family:'boldcredits';
+	position:relative;
+	top:120px;
+}
+
+
+
+/* TEXT FORMATTING */
+a {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.creditskontakt table th {
+	font-size:16px;
+	text-align:right;
+	vertical-align:bottom;
+	padding-bottom:3px;
+	font-family: 'ultralightcredits';	
+	font-weight:normal;
+	letter-spacing:1px;
+	text-transform:lowercase;
+}
+
+.creditskontakt table td {
+	font-size:22px;
+	text-align:left;
+	vertical-align:bottom;
+
+}
+
+.credits h1 {
+	font-family: 'ultralightcredits';
+	text-transform:lowercase;
+	font-size:16px;	
+	margin-bottom:0px;
+	padding-top:60px;
+	font-weight:normal;
+	letter-spacing:1px;
+}
+
+.credits p {
+	text-transform:uppercase;
+	font-size:22px;
+	margin-top:0px;
+}
+
+.credits {
+	margin:100px 250px 50px 250px;
+}
+
+#playerclose {
+	position:fixed;
+	float:right;
+	z-index:1;
+	top:5px;
+	right:5px;
+}
+
+#language {
+	position:fixed;
+	float:right;
+	z-index:1;
+	top:5px;
+	right:5px;	
+}
+
+#social {
+
+}
