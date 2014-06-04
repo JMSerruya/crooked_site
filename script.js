@@ -72,3 +72,4 @@ function loadXML() {
  		xmlhttp.open("GET",url,true);
 	xmlhttp.send();
 }	
+
