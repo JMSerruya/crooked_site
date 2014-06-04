@@ -93,4 +93,17 @@ $(document).ready(function(){
         e.preventDefault();
     })
 
+    $('.jcarousel').jcarousel({
+        auto: 1,
+        visible: 3
+    });
+
+    $('.jcarousel-control-prev').click(function() {
+	    $('.jcarousel').jcarousel('scroll', '-=1');
+	});
+
+	$('.jcarousel-control-next').click(function() {
+	    $('.jcarousel').jcarousel('scroll', '+=1');
+	});
+
 });

@@ -17,7 +17,8 @@
 		<div id="logo2">CROOKED FILMS</div>
 		<div id="test"></div>
 	</div> <!-- used in transition to video player -->
-
+	
+	<div id="normalcontent">
 		<div id="header">
 		CROOKED FILMS
 		</div> <!-- closes header -->
@@ -36,21 +37,25 @@
 		<div id="footer">
 			<?php include 'footer.php'; ?> <!-- social media buttons, copyright etc -->
 		</div> <!-- closes footer -->
-
+	</div>
 </div> <!-- close visiblecontent div -->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 <script src="script.js"></script>
-<script>
-$(function() {
-    $('.jcarousel').jcarousel({
-        auto: 1,
-        visible: 3
-    });
-});
-</script>
 
+<script type="text/javascript">
+   $(document).ready(function() {
+     $(".accordion .accord-header").click(function() {
+       if($(this).next("div").is(":visible")){
+         $(this).next("div").slideUp("slow");
+       } else {
+         $(".accordion .accord-content").slideUp("slow");
+         $(this).next("div").slideToggle("slow");
+       }
+     });
+   });
+ </script>
 
 
 
