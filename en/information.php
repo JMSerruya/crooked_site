@@ -12,7 +12,4 @@
 	<p>
 		Do you want to reach a wider audience with your music?
 	</p>
-		
-	
-	<br><br><br>
 </div>

@@ -15,5 +15,4 @@
 		Vil du også nå længere ud med din musik?
 	</p>
 
-	<br><br><br>
 </div>

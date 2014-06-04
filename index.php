@@ -8,7 +8,7 @@
 
 <body onresize="position();" onload="position();">
 
-<div id="language"><a href="http://crooked-films.com/en/">ENG.</a></div>
+<div id="language"><a href="/crookedfilms/en">ENG.</a></div>
 
 <div id="visiblecontent">
 
@@ -21,16 +21,18 @@
 	<div id="normalcontent">
 		<div id="header">
 			<div id="logoHeader">CROOKED FILMS</div>
+
 		</div> <!-- closes header -->
+		<div id="headersub">MUSIKVIDEOER FOR AMBITIØSE UPCOMING MUSIKERE</div>
 			
 		<div class="accordion">
-  			<div class="accord-header">VIDEOS</div>
+  			<div class="accord-header">WORK</div>
   			<div id="home" class="accord-content"><?php include 'home.php'; ?></div>
   			<div class="accord-header">INFORMATION</div>
   			<div id="information"><?php include 'information.php'; ?></div>
-  			<div class="accord-header">PRODUCTS</div>
+  			<div class="accord-header">PRODUKTER</div>
   			<div id="produkter"><?php include 'produkter.php'; ?></div>
-  			<div class="accord-header">CONTACT</div>
+  			<div class="accord-header">KONTAKT</div>
 			<div id="kontakt"><?php include 'kontakt.php'; ?></div>
 		</div>
 		
