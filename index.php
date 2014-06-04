@@ -8,7 +8,7 @@
 
 <body onresize="position();" onload="position();">
 
-<div id="language"><a href="/crookedfilms/en">ENG.</a></div>
+<div id="language"><a href="http://crooked-films.com/en">ENG.</a></div>
 
 <div id="visiblecontent">
 
