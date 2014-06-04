@@ -1,4 +1,3 @@
-<div class="jcarousel-wrapper">
 <div class="jcarousel">
     <ul>
         <li>
@@ -18,6 +17,6 @@
 
 <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
 <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
 <p class="jcarousel-pagination">                  
 </p>
-</div>

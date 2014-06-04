@@ -39,31 +39,18 @@
 
 </div> <!-- close visiblecontent div -->
 
-<script type="text/javascript">
-	<?php include 'script.js' ?> <!-- script common to all pages -->
-</script>
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script src="script.js"></script>
 <script>
 $(function() {
     $('.jcarousel').jcarousel({
-        
+        auto: 1,
+        visible: 3
     });
 });
 </script>
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".accordion .accord-header").click(function() {
-      if($(this).next("div").is(":visible")){
-        $(this).next("div").slideUp("slow");
-      } else {
-        $(".accordion .accord-content").slideUp("slow");
-        $(this).next("div").slideToggle("slow");
-      }
-    });
-  });
-</script>
+
 
 
 
