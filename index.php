@@ -20,7 +20,7 @@
 	
 	<div id="normalcontent">
 		<div id="header">
-		CROOKED FILMS
+			<div id="logoHeader">CROOKED FILMS</div>
 		</div> <!-- closes header -->
 			
 		<div class="accordion">
